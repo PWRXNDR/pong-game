@@ -1,13 +1,16 @@
 body {
   margin: 0;
+  padding: 0;
+  height: 100%;
   background-color: rgb(39, 39, 39);
   display: flex;
   justify-content: center;
   font-family: "Courier New", Courier, monospace;
+  overflow: hidden;
 }
 
 canvas {
-  margin-top: 25px;
+  margin: auto;
   z-index: 10;
 }
 
